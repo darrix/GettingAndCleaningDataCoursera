@@ -1,6 +1,6 @@
 # RUN_ANALYSIS.R
 # Getting and Cleaning Data course
-
+library(data.table)
 
 # read test data.  accept default names for now.
 testPath <- file.path(getwd(),"samsung/test/x_test.txt")
